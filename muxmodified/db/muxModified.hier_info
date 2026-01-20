@@ -1,0 +1,53 @@
+|muxModified
+leds[6] <= sseg2:inst3.leds[6]
+leds[5] <= sseg2:inst3.leds[5]
+leds[4] <= sseg2:inst3.leds[4]
+leds[3] <= sseg2:inst3.leds[3]
+leds[2] <= sseg2:inst3.leds[2]
+leds[1] <= sseg2:inst3.leds[1]
+leds[0] <= sseg2:inst3.leds[0]
+w0 => mux2to1:inst.w0
+w1 => mux2to1:inst.w1
+S0 => mux2to1:inst.s
+S0 => mux2to1:inst1.s
+w2 => mux2to1:inst1.w0
+w3 => mux2to1:inst1.w1
+S1 => mux2to1:inst2.s
+
+
+|muxModified|sseg2:inst3
+bcd => leds[5].DATAIN
+bcd => leds[0].DATAIN
+bcd => leds[3].DATAIN
+bcd => leds[4].DATAIN
+sign => ~NO_FANOUT~
+leds[6] <= <VCC>
+leds[5] <= bcd.DB_MAX_OUTPUT_PORT_TYPE
+leds[4] <= bcd.DB_MAX_OUTPUT_PORT_TYPE
+leds[3] <= bcd.DB_MAX_OUTPUT_PORT_TYPE
+leds[2] <= <GND>
+leds[1] <= <GND>
+leds[0] <= bcd.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|muxModified|mux2to1:inst2
+w0 => f.DATAB
+w1 => f.DATAA
+s => f.OUTPUTSELECT
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|muxModified|mux2to1:inst
+w0 => f.DATAB
+w1 => f.DATAA
+s => f.OUTPUTSELECT
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|muxModified|mux2to1:inst1
+w0 => f.DATAB
+w1 => f.DATAA
+s => f.OUTPUTSELECT
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+

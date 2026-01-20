@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1\quartus\bin64\Projects\L4\muxmodified\simulation\qsim
+vmuxModified
+Z1 !s100 Ul8;7JYN>o^IIjE>XNlS:3
+Z2 If3m`LgF2>EcRe12dSBKEf1
+Z3 VfW28@Po@^mCj_UQko;:<21
+Z4 dC:\Users\Owner\Documents\quartus\L4.2\muxmodified\simulation\qsim
+Z5 w1730346050
+Z6 8muxModified.vo
+Z7 FmuxModified.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|muxModified.vo|
+Z10 o-work work -O0
+Z11 nmux@modified
+!i10b 1
+!s85 0
+Z12 !s108 1730346051.829000
+Z13 !s107 muxModified.vo|
+!s101 -O0
+vmuxModified_vlg_check_tst
+!i10b 1
+Z14 !s100 711faOSeS[6;Yl;b>CZ713
+Z15 IaBC>YEiXj[TZNF<MCEO]f2
+Z16 Vkh:kA>B<h`kQbi49RMjP[3
+R4
+Z17 w1730346049
+Z18 8muxModified.vt
+Z19 FmuxModified.vt
+L0 67
+R8
+r1
+!s85 0
+31
+Z20 !s108 1730346051.954000
+Z21 !s107 muxModified.vt|
+Z22 !s90 -work|work|muxModified.vt|
+!s101 -O0
+R10
+Z23 nmux@modified_vlg_check_tst
+vmuxModified_vlg_sample_tst
+!i10b 1
+Z24 !s100 h8cV<OVzUzmNBk>mdjhS_1
+Z25 IgT7@aEDVH60K0S5I;W[CD3
+Z26 VdaAg;PoDRU;;hU9cbaba22
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 nmux@modified_vlg_sample_tst
+vmuxModified_vlg_vec_tst
+!i10b 1
+Z28 !s100 `9[a;7Mn5^`SIH<>Pk4`E2
+Z29 I3T[iVe6GJl[`GJT_?=4A:3
+Z30 V0>QdIQ>IFYmWn[6;z8cD@3
+R4
+R17
+R18
+R19
+Z31 L0 269
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z32 nmux@modified_vlg_vec_tst

@@ -1,0 +1,133 @@
+|decodModified
+leds[7] <= sseg:inst5.leds[7]
+leds[6] <= sseg:inst5.leds[6]
+leds[5] <= sseg:inst5.leds[5]
+leds[4] <= sseg:inst5.leds[4]
+leds[3] <= sseg:inst5.leds[3]
+leds[2] <= sseg:inst5.leds[2]
+leds[1] <= sseg:inst5.leds[1]
+leds[0] <= sseg:inst5.leds[0]
+w2 => inst2.IN0
+w2 => inst4.IN1
+En => inst3.IN1
+En => inst4.IN0
+w[0] => decod:inst.w[0]
+w[0] => decod:inst1.w[0]
+w[1] => decod:inst.w[1]
+w[1] => decod:inst1.w[1]
+
+
+|decodModified|sseg:inst5
+bcd1[3] => Mux0.IN259
+bcd1[3] => Mux1.IN259
+bcd1[3] => Mux2.IN259
+bcd1[3] => Mux3.IN259
+bcd1[3] => Mux4.IN259
+bcd1[3] => Mux5.IN259
+bcd1[3] => Mux6.IN259
+bcd1[3] => Mux7.IN259
+bcd1[2] => Mux0.IN258
+bcd1[2] => Mux1.IN258
+bcd1[2] => Mux2.IN258
+bcd1[2] => Mux3.IN258
+bcd1[2] => Mux4.IN258
+bcd1[2] => Mux5.IN258
+bcd1[2] => Mux6.IN258
+bcd1[2] => Mux7.IN258
+bcd1[1] => Mux0.IN257
+bcd1[1] => Mux1.IN257
+bcd1[1] => Mux2.IN257
+bcd1[1] => Mux3.IN257
+bcd1[1] => Mux4.IN257
+bcd1[1] => Mux5.IN257
+bcd1[1] => Mux6.IN257
+bcd1[1] => Mux7.IN257
+bcd1[0] => Mux0.IN256
+bcd1[0] => Mux1.IN256
+bcd1[0] => Mux2.IN256
+bcd1[0] => Mux3.IN256
+bcd1[0] => Mux4.IN256
+bcd1[0] => Mux5.IN256
+bcd1[0] => Mux6.IN256
+bcd1[0] => Mux7.IN256
+bcd2[3] => Mux0.IN263
+bcd2[3] => Mux1.IN263
+bcd2[3] => Mux2.IN263
+bcd2[3] => Mux3.IN263
+bcd2[3] => Mux4.IN263
+bcd2[3] => Mux5.IN263
+bcd2[3] => Mux6.IN263
+bcd2[3] => Mux7.IN263
+bcd2[2] => Mux0.IN262
+bcd2[2] => Mux1.IN262
+bcd2[2] => Mux2.IN262
+bcd2[2] => Mux3.IN262
+bcd2[2] => Mux4.IN262
+bcd2[2] => Mux5.IN262
+bcd2[2] => Mux6.IN262
+bcd2[2] => Mux7.IN262
+bcd2[1] => Mux0.IN261
+bcd2[1] => Mux1.IN261
+bcd2[1] => Mux2.IN261
+bcd2[1] => Mux3.IN261
+bcd2[1] => Mux4.IN261
+bcd2[1] => Mux5.IN261
+bcd2[1] => Mux6.IN261
+bcd2[1] => Mux7.IN261
+bcd2[0] => Mux0.IN260
+bcd2[0] => Mux1.IN260
+bcd2[0] => Mux2.IN260
+bcd2[0] => Mux3.IN260
+bcd2[0] => Mux4.IN260
+bcd2[0] => Mux5.IN260
+bcd2[0] => Mux6.IN260
+bcd2[0] => Mux7.IN260
+sign => ~NO_FANOUT~
+leds[7] <= Mux7.DB_MAX_OUTPUT_PORT_TYPE
+leds[6] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+leds[5] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+leds[4] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+leds[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+leds[2] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+leds[1] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+leds[0] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|decodModified|decod:inst
+w[0] => Mux0.IN10
+w[0] => Mux1.IN10
+w[0] => Mux2.IN10
+w[0] => Mux3.IN10
+w[1] => Mux0.IN9
+w[1] => Mux1.IN9
+w[1] => Mux2.IN9
+w[1] => Mux3.IN9
+En => Mux0.IN8
+En => Mux1.IN8
+En => Mux2.IN8
+En => Mux3.IN8
+y[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+y[0] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|decodModified|decod:inst1
+w[0] => Mux0.IN10
+w[0] => Mux1.IN10
+w[0] => Mux2.IN10
+w[0] => Mux3.IN10
+w[1] => Mux0.IN9
+w[1] => Mux1.IN9
+w[1] => Mux2.IN9
+w[1] => Mux3.IN9
+En => Mux0.IN8
+En => Mux1.IN8
+En => Mux2.IN8
+En => Mux3.IN8
+y[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+y[0] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+

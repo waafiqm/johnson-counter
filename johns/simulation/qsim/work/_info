@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1\quartus\bin64\Projects\L4\johns\simulation\qsim
+vjohnscirc
+Z1 IM?7ohjCbaZ^hh:L5Sa^^S2
+Z2 V`o>[9K=^V4=2?AfQ?cGgJ2
+Z3 dC:\Users\Owner\Documents\quartus\L4.2\johns\simulation\qsim
+Z4 w1730345917
+Z5 8johns.vo
+Z6 Fjohns.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|johns.vo|
+Z9 o-work work -O0
+!i10b 1
+Z10 !s100 RB``SMAi4U1KzjN:^ec<43
+!s85 0
+Z11 !s108 1730345918.768000
+Z12 !s107 johns.vo|
+!s101 -O0
+vjohnscirc_vlg_check_tst
+!i10b 1
+Z13 !s100 _>lTl9g7nFo0HE^4]o>;:3
+Z14 I?db5YKeBUL9W7aTS`[L0I3
+Z15 VhD?Lz`=WQ6DDF4z;Z>c6:3
+R3
+R4
+Z16 8johns.vt
+Z17 Fjohns.vt
+L0 59
+R7
+r1
+!s85 0
+31
+Z18 !s108 1730345918.876000
+Z19 !s107 johns.vt|
+Z20 !s90 -work|work|johns.vt|
+!s101 -O0
+R9
+vjohnscirc_vlg_sample_tst
+!i10b 1
+Z21 !s100 mG0M^nfVXkISdb@7:ecM@2
+Z22 IacR]hTWDRK5h`8=?XEkf33
+Z23 VP6chSGhNc51ladKSSfa<T3
+R3
+R4
+R16
+R17
+L0 29
+R7
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R9
+vjohnscirc_vlg_vec_tst
+!i10b 1
+Z24 !s100 a>@>:I3o^TSi_[bod9HkB3
+Z25 I>PV1>j``z06ZN`UMan@`>0
+Z26 VV0WJ[7^cYSMb`V?FozBOa3
+R3
+R4
+R16
+R17
+Z27 L0 413
+R7
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R9

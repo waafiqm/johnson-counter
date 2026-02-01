@@ -1,4 +1,4 @@
-# VHDL Combinational Circuits and Storage Elements
+# Johnson Counter
 
 A collection of **VHDL-based digital logic designs** demonstrating combinational circuits and basic storage elements. This project includes multiplexers, decoders, encoders, and a Johnson counter, all designed, compiled, and simulated using Intel Quartus.
 
